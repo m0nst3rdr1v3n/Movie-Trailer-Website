@@ -19,6 +19,6 @@ Navigate to the project directory and use the following command:
 ```bash
 python entertainment_center.py
 ```
-Your default browser will launcha new tab displaying the website. 
+Your default browser will launch a new tab displaying the website. 
 
 ## Screenshot of the finihed product:
