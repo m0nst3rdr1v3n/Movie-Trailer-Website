@@ -21,4 +21,3 @@ python entertainment_center.py
 ```
 Your default browser will launch a new tab displaying the website. 
 
-## Screenshot of the finihed product:
