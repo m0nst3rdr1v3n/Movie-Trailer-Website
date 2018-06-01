@@ -1,6 +1,8 @@
+"""Stores the details of the following movies, and displays the information on a website. """
 import media
 import fresh_tomatoes
-
+"""Creates movie objects, and initialilzes them with a title, movie poster,
+trailer"""
 ex_machina = media.Movie("Ex Machina", "Robots man.",
                          "https://bit.ly/2jI3RSt",
                          "https://youtu.be/EoQuVnKhxaM")
@@ -26,7 +28,8 @@ zoolander = media.Movie("Zoolander", "There has to be more too life than being \
                         really reall really rediculously good looking",
                         "http://www.impawards.com/2001/posters/zoolander.jpg",
                         "https://youtu.be/MaEeSJZYkpY")
-
+#Stores movie objects in a list.
 movies = [ex_machina, sinister, book_of_life, smokin_aces,
           nightmare_before_christmas, zoolander]
+#Opens the movie website in the users browser.
 fresh_tomatoes.open_movies_page(movies)
