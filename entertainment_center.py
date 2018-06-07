@@ -1,8 +1,13 @@
-"""Stores the details of the following movies, and displays the information on a website. """
+"""
+Stores the details of the following movies,
+and displays the information on a website.
+"""
 import media
 import fresh_tomatoes
-"""Creates movie objects, and initialilzes them with a title, movie poster,
-trailer"""
+"""
+Creates movie objects, and initialilzes them with a title, movie poster,
+trailer.
+"""
 ex_machina = media.Movie("Ex Machina", "Robots man.",
                          "https://bit.ly/2jI3RSt",
                          "https://youtu.be/EoQuVnKhxaM")
