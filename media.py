@@ -1,9 +1,10 @@
-   """Defines the movie class and contains the details of the movies."""
+"""Defines the movie class and contains the details of the movies."""
 import webbrowser
 
 
 class Movie():
-    """This class stores movie related informationself.
+    """This class stores movie related information.
+
     The attributes are:
     movie_title: which is a string to store the title of the movie.
     movie_storyline: which is a sting to store the description of the movie.
